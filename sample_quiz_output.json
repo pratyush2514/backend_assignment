@@ -1,0 +1,118 @@
+
+{
+    "quiz_id": "48b6ea6e-9596-4fe7-95d1-6a3a5a108ece",
+    "questions": [
+        {
+            "q_id": "q1",
+            "type": "mcq",
+            "question": "According to the Fundamental Theorem of Arithmetic, every composite number can be expressed as a product of primes. This factorization is unique except for which of the following?",
+            "options": [
+                "The order in which the prime factors occur",
+                "The total number of prime factors",
+                "The value of the prime factors used",
+                "The powers to which the primes are raised"
+            ],
+            "correct_answer": 0,
+            "topic": "Fundamental Theorem of Arithmetic",
+            "points": 1.0
+        },
+        {
+            "q_id": "q2",
+            "type": "mcq",
+            "question": "For a natural number 'n', why can the number 4^n never end with the digit zero?",
+            "options": [
+                "Because its prime factorization only contains the prime 2",
+                "Because its prime factorization contains the prime 5",
+                "Because 'n' must be an even number for it to end in zero",
+                "Because 4 is not a prime number"
+            ],
+            "correct_answer": 0,
+            "topic": "Prime Factorization Method",
+            "points": 1.0
+        },
+        {
+            "q_id": "q3",
+            "type": "mcq",
+            "question": "If 'a' and 'b' are two positive integers, what is the relationship between their HCF, LCM, and the numbers themselves?",
+            "options": [
+                "HCF(a, b) + LCM(a, b) = a + b",
+                "HCF(a, b) × LCM(a, b) = a × b",
+                "HCF(a, b) / LCM(a, b) = a / b",
+                "HCF(a, b) × a = LCM(a, b) × b"
+            ],
+            "correct_answer": 1,
+            "topic": "Relationship between HCF and LCM",
+            "points": 1.0
+        },
+        {
+            "q_id": "q4",
+            "type": "mcq",
+            "question": "Theorem 1.2 states: 'Let p be a prime number. If p divides a^2, then p divides a.' What condition must 'a' satisfy for this to be true?",
+            "options": [
+                "a must be a prime number",
+                "a must be an irrational number",
+                "a must be a positive integer",
+                "a must be a multiple of p^2"
+            ],
+            "correct_answer": 2,
+            "topic": "Divisibility Properties of Primes",
+            "points": 1.0
+        },
+        {
+            "q_id": "q5",
+            "type": "mcq",
+            "question": "Which of the following is a correct statement regarding rational and irrational numbers?",
+            "options": [
+                "The sum of a rational and an irrational number is always rational.",
+                "The product of two irrational numbers is always irrational.",
+                "The quotient of a non-zero rational and an irrational number is irrational.",
+                "Every square root of a natural number is irrational."
+            ],
+            "correct_answer": 2,
+            "topic": "Irrational Numbers",
+            "points": 1.0
+        },
+        {
+            "q_id": "q6",
+            "type": "short",
+            "question": "Explain why the prime factorization of a denominator 'q' in a rational number p/q determines if the decimal expansion is terminating.",
+            "correct_answer": "Expected answer with key points: The nature of the decimal expansion depends on the prime factors of the denominator q. If the prime factorization of q contains only powers of 2 and 5, the decimal expansion terminates. Otherwise, it is non-terminating repeating.",
+            "topic": "Fundamental Theorem of Arithmetic",
+            "points": 2.0
+        },
+        {
+            "q_id": "q7",
+            "type": "short",
+            "question": "Describe the initial step taken when proving that √2 is irrational using the method of contradiction.",
+            "correct_answer": "Expected answer with key points: The first step is to assume the contrary, that √2 is a rational number. This allows us to write √2 = a/b, where a and b are integers, b ≠ 0, and a and b are assumed to be coprime (having no common factors other than 1).",
+            "topic": "Proof of Irrationality by Contradiction",
+            "points": 2.0
+        },
+        {
+            "q_id": "q8",
+            "type": "short",
+            "question": "Why is the expression 7 × 11 × 13 + 13 considered a composite number based on the definitions in the chapter?",
+            "correct_answer": "Expected answer with key points: By factoring out 13, the expression becomes 13(7 × 11 + 1) = 13 × 78. Since it can be expressed as a product of factors other than 1 and itself, it satisfies the definition of a composite number.",
+            "topic": "Fundamental Theorem of Arithmetic",
+            "points": 2.0
+        },
+        {
+            "q_id": "q9",
+            "type": "numerical",
+            "question": "Find the HCF and LCM of 6 and 20 using the prime factorization method.",
+            "correct_answer": "HCF = 2, LCM = 60. Solution Approach: 1. Prime factorize 6: 2^1 × 3^1. 2. Prime factorize 20: 2^2 × 5^1. 3. HCF is the product of the smallest power of each common prime factor: 2^1 = 2. 4. LCM is the product of the greatest power of each prime factor involved: 2^2 × 3^1 × 5^1 = 4 × 3 × 5 = 60.",
+            "topic": "HCF and LCM of Positive Integers",
+            "points": 3.0
+        },
+        {
+            "q_id": "q10",
+            "type": "numerical",
+            "question": "Given that HCF(306, 657) = 9, find the LCM(306, 657) using the property of product of numbers.",
+            "correct_answer": "22338. Solution Approach: 1. Use the formula HCF(a, b) × LCM(a, b) = a × b. 2. Substitute values: 9 × LCM(306, 657) = 306 × 657. 3. Rearrange to find LCM: LCM = (306 × 657) / 9. 4. Calculate: 306 / 9 = 34. 5. Multiply 34 × 657 = 22338.",
+            "topic": "Relationship between HCF and LCM",
+            "points": 3.0
+        }
+    ],
+    "total_questions": 10,
+    "total_points": 17.0
+}
