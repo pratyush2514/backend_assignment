@@ -16,6 +16,17 @@ Production-ready backend platform for PDF-based learning with AI-powered quiz ge
 - [Testing Guide](#testing-guide)
 - [Performance & Scalability](#performance--scalability)
 
+##  Demo Video
+
+This short demo shows:
+- PDF upload and indexing
+- Chapter completion detection
+- Quiz generation & grading
+- Performance analytics
+
+▶️ **Watch the demo on Google Drive:**  
+https://drive.google.com/file/d/1ghQoGayrnBF6A7LdQDv31Pc-PUzHsSx3/view?usp=sharing
+
 ---
 
 ## Overview
